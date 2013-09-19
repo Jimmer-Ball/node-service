@@ -1,5 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<!-- =========================================================================== -->
+<!-- This is the client side code entry point picked up by default given express -->
+<!-- will look for an index.html in wherever its static content (client side)    -->
+<!-- is expected to live                                                         -->
+<!-- =========================================================================== -->
 <head>
     <meta charset="UTF-8">
     <title>Backbone Library Application</title>
@@ -8,7 +13,8 @@
     <!-- Templates go before rest of scripts. We use the dateFormat plugin on the
          releaseDate here. We also execute some underscore to iterate over the keywords
          array and display each keyword in turn. Note, what about guaranteeing the
-         order of the load using AMD and such like? -->
+         order of the load using AMD and such like, and using it to serve up templates
+         instead? -->
     <script id="bookTemplate" type="text/template">
         <img src="<%= coverImage %>"/>
         <ul>
@@ -20,13 +26,13 @@
 
         <button class="delete">Delete</button>
     </script>
-     <!-- Note these dependencies are now all local -->
+     <!-- Note these dependencies are now all local to the client side -->
     <script src="js/lib/jquery.js"></script>
     <script src="js/lib/jquery-dateFormat.js"></script>
     <script src="js/lib/jquery-ui.js"></script>
     <script src="js/lib/underscore.js"></script>
     <script src="js/lib/backbone.js"></script>
-    <!-- Our application code -->
+    <!-- Our client application code -->
     <script src="js/models/book.js"></script>
     <script src="js/collections/library.js"></script>
     <script src="js/views/book.js"></script>
@@ -35,7 +41,7 @@
 </head>
 <body>
 <div id="books">
-    <!-- Submit to itself, not an URL -->
+    <!-- Submit to itself, not a URL -->
     <form id="addBook" action="#">
         <div>
             <label for="coverImage">CoverImage: </label><input id="coverImage" type="file" />

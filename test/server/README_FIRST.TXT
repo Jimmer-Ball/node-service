@@ -1,10 +1,13 @@
-To test the API means having jasmine-node installed and setup using npm
-as a global node.js library.
+To perform server side tests
+----------------------------
+1) To test the server side means having jasmine-node installed and setup via npm
+   as a global node.js library, so with the -g argument.  Go look at
+2) Run the library-server in the background, either command line or from
+   the runner in IntelliJ
+3) Kick off a cmd shell
+4) Navigate to the project root
+5) Type the following at the prompt:
 
-Run node in the background.
+    jasmine-node test/server/jasmine/spec --forceexit
 
-You can then run the tests from the command line with jasmine-node <path_to_specs> --forceexit
-
-These might as well be system level tests you know
-
-done
+Note: This will run all the specs in the spec directory and exit when all tests are run.
