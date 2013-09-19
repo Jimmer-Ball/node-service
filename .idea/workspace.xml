@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" name="Default" comment="" />
+    <list default="true" id="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\css\jquery-ui.css" afterPath="$PROJECT_DIR$/public/css/jquery-ui.css" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\css\screen.css" afterPath="$PROJECT_DIR$/public/css/screen.css" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\img\placeholder.png" afterPath="$PROJECT_DIR$/public/img/placeholder.png" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\collections\library.js" afterPath="$PROJECT_DIR$/public/js/collections/library.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\lib\backbone.js" afterPath="$PROJECT_DIR$/public/js/lib/backbone.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\lib\jquery-dateFormat.js" afterPath="$PROJECT_DIR$/public/js/lib/jquery-dateFormat.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\lib\jquery-ui.js" afterPath="$PROJECT_DIR$/public/js/lib/jquery-ui.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\lib\jquery.js" afterPath="$PROJECT_DIR$/public/js/lib/jquery.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\lib\underscore.js" afterPath="$PROJECT_DIR$/public/js/lib/underscore.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\models\book.js" afterPath="$PROJECT_DIR$/public/js/models/book.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\views\book.js" afterPath="$PROJECT_DIR$/public/js/views/book.js" />
+      <change type="MOVED" beforePath="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\site\js\views\library.js" afterPath="$PROJECT_DIR$/public/js/views/library.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/client/jasmine/SpecRunner.html" afterPath="$PROJECT_DIR$/test/client/jasmine/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library-server.js" afterPath="$PROJECT_DIR$/library-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="node-service.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379090904890" ignored="false" />
@@ -9,12 +29,16 @@
     <file path="/library.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379071674265" ignored="false" />
     <file path="/book.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379088674375" ignored="false" />
     <file path="/package.json" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379080418281" ignored="false" />
-    <file path="/library-server.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379088159531" ignored="false" />
+    <file path="/library-server.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379591469390" ignored="false" />
     <file path="$PROJECT_DIR$/../../MOBILE_REPO/node-service-amd/.idea/workspace.xml" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379340003640" ignored="false" />
     <file path="/SpecRunner.html" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379357612703" ignored="false" />
     <file path="/BookSpec.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379355899218" ignored="false" />
     <file path="/book-api_spec.js" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379362429187" ignored="false" />
     <file path="/README_FIRST.TXT" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379362737296" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379585949218" ignored="false" />
+    <file path="$PROJECT_DIR$/../learning_trunk/src/test/java/com/timepoorprogrammer/patterns/BubbleSortTest.java" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379519907218" ignored="false" />
+    <file path="/BubbleSortTest.java" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379519891953" ignored="false" />
+    <file path="/a.dummy" changelist="d3bb165a-44bf-40be-88a5-bb9e4ab01bf4" time="1379593107750" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +53,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -65,7 +90,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,16 +102,72 @@
       <file leaf-file-name="book-api_spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/server/jasmine/spec/book-api_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="10" column="3" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/client/jasmine/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="47" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.067729086">
+            <state line="26" column="40" selection-start="1329" selection-end="1329" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library-server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library-server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="39" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-2.72">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/models/book.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="36" selection-start="196" selection-end="196" vertical-scroll-proportion="0.46258503">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongoose/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="16" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,12 +180,18 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/site/js/lib/jquery-dateFormat-min.js" />
-        <option value="$PROJECT_DIR$/library-server.js" />
-        <option value="$PROJECT_DIR$/site/js/app.js" />
         <option value="$PROJECT_DIR$/site/index.html" />
         <option value="$PROJECT_DIR$/site/js/views/library.js" />
         <option value="$PROJECT_DIR$/testing/jasmine/spec/BookSpec.js" />
@@ -119,16 +205,18 @@
         <option value="$PROJECT_DIR$/test/server/jasmine/spec/book-api-spec.js" />
         <option value="$PROJECT_DIR$/test/server/jasmine/spec/book-api_spec.js" />
         <option value="$PROJECT_DIR$/test/server/README_FIRST.TXT" />
+        <option value="$PROJECT_DIR$/server/library-server.js" />
+        <option value="$PROJECT_DIR$/node_modules/express/index.js" />
+        <option value="$PROJECT_DIR$/library-server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="40" />
-    <option name="width" value="1114" />
-    <option name="height" value="726" />
+    <option name="y" value="4" />
+    <option name="width" value="1203" />
+    <option name="height" value="723" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -154,6 +242,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,11 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,15 +286,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,7 +304,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,28 +332,42 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="83" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="85" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propDebugger" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="93" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/express" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="91" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="767" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="771" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="82" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
+    <property name="project.structure.side.proportion" value="0.17960602" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -272,9 +376,10 @@
       <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service" />
+      <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\server" />
       <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\test\client" />
       <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service\test\jasmine" />
-      <recent name="C:\cygwin\home\Jimbo\development\repository\TOOLS_REPO\node-service" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.library-server">
@@ -453,31 +558,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="40" width="1114" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="4" width="1203" height="723" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49475524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45043477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40488657" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40384614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2492971" sideWeight="0.58086956" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41603774" sideWeight="0.5495652" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2897033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30287206" sideWeight="0.59615386" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3444056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6012759" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -544,19 +649,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/site/js/views/library.js</url>
+          <url>file://$PROJECT_DIR$/public/js/views/library.js</url>
           <line>49</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/site/js/models/book.js</url>
+          <url>file://$PROJECT_DIR$/public/js/models/book.js</url>
           <line>24</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/library-server.js</url>
-          <line>119</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -570,111 +670,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/js/lib/underscore.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/node_modules/jasmine-reporters/ext/jasmine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="816" column="11" selection-start="28613" selection-end="28619" vertical-scroll-proportion="0.0">
+        <state line="459" column="4" selection-start="11657" selection-end="11657" vertical-scroll-proportion="0.34603176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/server/jasmine/spec/book-api_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="35" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12734082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/client/jasmine/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="40" selection-start="1329" selection-end="1329" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="386" column="4" selection-start="8833" selection-end="8833" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/path/path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="10" selection-start="5416" selection-end="5416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="84" selection-start="388" selection-end="388" vertical-scroll-proportion="0.5543478">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/app.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+        <state line="19" column="8" selection-start="364" selection-end="366" vertical-scroll-proportion="1.2007434">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/views/library.js">
+    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node_globals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="104" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+        <state line="285" column="4" selection-start="8222" selection-end="8222" vertical-scroll-proportion="0.33096084">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/views/book.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/models/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="151" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/js/lib/backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="8" selection-start="12423" selection-end="12423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/spec/async-callback_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/spec/SampleSpecs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/client/jasmine/spec/BookSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="164" selection-end="164" vertical-scroll-proportion="-0.11643836">
+        <state line="3" column="30" selection-start="104" selection-end="104" vertical-scroll-proportion="0.17114094">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="3964" selection-end="3964" vertical-scroll-proportion="0.28767124">
+        <state line="28" column="39" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-2.72">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/server/README_FIRST.TXT">
+    <entry file="file://$PROJECT_DIR$/public/js/models/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="277" selection-end="277" vertical-scroll-proportion="0.79452056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/node_modules/requirejs/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jasmine-node/node_modules/jasmine-reporters/ext/jasmine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="459" column="4" selection-start="11657" selection-end="11657" vertical-scroll-proportion="0.34603176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/server/jasmine/spec/book-api_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/client/jasmine/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.067729086">
+        <state line="8" column="36" selection-start="196" selection-end="196" vertical-scroll-proportion="0.46258503">
           <folding />
         </state>
       </provider>
@@ -708,10 +811,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Node.js v0.10.18 Core Modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17960602" />
               </list>
             </option>
           </splitter-proportions>

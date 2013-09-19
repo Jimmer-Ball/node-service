@@ -1,30 +1,21 @@
 // Node application dependencies, which were initially installed via npm install working
 // against the package.json at the root level of the project.
-var application_root = __dirname,
-    express = require('express'), //Web framework
-    path = require('path'), //Utilities for dealing with file paths
-    mongoose = require('mongoose'); //MongoDB integration
+var application_root = __dirname;
+// Web framework
+var express = require('express');
+// Utilities for dealing with file paths
+var path = require('path');
+// MongoDB integration
+var mongoose = require('mongoose');
 
-//Create web framework server
+// Create and configure web framework server
 var app = express();
+app.use(express.bodyParser());
+app.use(express.methodOverride());
+app.use(app.router);
+app.use(express.static(path.join(application_root, 'public')));
+app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 
-// Configure web framework server
-app.configure(function () {
-    //parses request body and populates request.body
-    app.use(express.bodyParser());
-
-    //checks request.body for HTTP method overrides
-    app.use(express.methodOverride());
-
-    //perform route lookup based on url and HTTP method
-    app.use(app.router);
-
-    //Where to serve static content
-    app.use(express.static(path.join(application_root, 'site')));
-
-    //Show all errors in development
-    app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
 
 //Start web server on port 4711
 var port = 4711;
@@ -115,15 +106,15 @@ app.put('/api/books/:id', function (request, response) {
 });
 
 //Delete a book
-app.delete( '/api/books/:id', function( request, response ) {
-    console.log( 'Deleting book with id: ' + request.params.id );
-    return BookModel.findById( request.params.id, function( err, book ) {
-        return book.remove( function( err ) {
-            if( !err ) {
-                console.log( 'Book removed' );
-                return response.send( '' );
+app.delete('/api/books/:id', function (request, response) {
+    console.log('Deleting book with id: ' + request.params.id);
+    return BookModel.findById(request.params.id, function (err, book) {
+        return book.remove(function (err) {
+            if (!err) {
+                console.log('Book removed');
+                return response.send('');
             } else {
-                console.log( err );
+                console.log(err);
             }
         });
     });
