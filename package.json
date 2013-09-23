@@ -1,11 +1,12 @@
 {
     "name": "backbone-library",
     "version": "0.0.1",
-    "description": "A simple library application using Backbone",
+    "description": "A simple book library application using Backbone, MongoDB, and Node",
     "dependencies": {
-        "//": "Express is used for the HTTP server, path for file paths and mongoose for the database",
         "express": "~3.1.0",
         "path": "~0.4.9",
-        "mongoose": "~3.5.5"
+        "mongoose": "~3.5.5",
+        "jasmine-node": "~1.11.0",
+        "requirejs": "~2.1.8"
     }
 }

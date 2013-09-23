@@ -1,9 +1,9 @@
-// site/js/collections/library.js
-
-var app = app || {};
-
-// Our library is a collection of books
-app.Library = Backbone.Collection.extend({
-    model: app.Book,
-    url: '/api/books'
+// -------------------------------------------
+// Collection of books also known as a Library
+// -------------------------------------------
+define(['backbone', 'js/models/book'], function (Backbone, Book) {
+    return Backbone.Collection.extend({
+        model: Book,
+        url: '/api/books'
+    });
 });

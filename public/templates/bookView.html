@@ -1,0 +1,12 @@
+<!-- An HTML template we'll load with requireJS as and when we need it, which also
+     holds a wodge of Jquery and Underscore malarky in it for formatting and for
+     creating a list of keywords. Nice. -->
+<img src="<%= coverImage %>"/>
+<ul>
+    <li><%= title %></li>
+    <li><%= author %></li>
+    <li><%= $.format.date( new Date( releaseDate ), 'MMMM yyyy' ) %></li>
+    <li><% _.each( keywords, function( keyobj ) {%> <%= keyobj.keyword %><% } ); %></li>
+</ul>
+<button class="delete">Delete</button>
+</script>

@@ -3,41 +3,17 @@
 <!-- =========================================================================== -->
 <!-- This is the client side code entry point picked up by default given express -->
 <!-- will look for an index.html in wherever its static content (client side)    -->
-<!-- is expected to live                                                         -->
+<!-- is expected to live, so a typical node setup then.                          -->
 <!-- =========================================================================== -->
 <head>
     <meta charset="UTF-8">
     <title>Backbone Library Application</title>
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/screen.css">
-    <!-- Templates go before rest of scripts. We use the dateFormat plugin on the
-         releaseDate here. We also execute some underscore to iterate over the keywords
-         array and display each keyword in turn. Note, what about guaranteeing the
-         order of the load using AMD and such like, and using it to serve up templates
-         instead? -->
-    <script id="bookTemplate" type="text/template">
-        <img src="<%= coverImage %>"/>
-        <ul>
-            <li><%= title %></li>
-            <li><%= author %></li>
-            <li><%= $.format.date( new Date( releaseDate ), 'MMMM yyyy' ) %></li>
-            <li><% _.each( keywords, function( keyobj ) {%> <%= keyobj.keyword %><% } ); %></li>
-        </ul>
-
-        <button class="delete">Delete</button>
-    </script>
-     <!-- Note these dependencies are now all local to the client side -->
-    <script src="js/lib/jquery.js"></script>
-    <script src="js/lib/jquery-dateFormat.js"></script>
-    <script src="js/lib/jquery-ui.js"></script>
-    <script src="js/lib/underscore.js"></script>
-    <script src="js/lib/backbone.js"></script>
-    <!-- Our client application code -->
-    <script src="js/models/book.js"></script>
-    <script src="js/collections/library.js"></script>
-    <script src="js/views/book.js"></script>
-    <script src="js/views/library.js"></script>
-    <script src="js/app.js"></script>
+     <!-- Use RequireJS on the client side to load up app.js at the relative location to
+          index.html.  All other requireJS script loads occur via the define statements
+          in the modules themselves -->
+    <script data-main="js/app.js" src="js/lib/require.js"></script>
 </head>
 <body>
 <div id="books">
