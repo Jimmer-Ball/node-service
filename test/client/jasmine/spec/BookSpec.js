@@ -1,5 +1,8 @@
+/**
+ * Test the book model
+ */
 define(['public/js/models/book'], function (Book) {
-    describe('Tests for book model', function () {
+    describe('Tests for the book model', function () {
         /**
          * title: 'No title',
          * author: 'Unknown',

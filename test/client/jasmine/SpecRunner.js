@@ -1,7 +1,7 @@
 require.config({
-    // Fix the base URL to be in the root of the whole project
-    // above the public and test directories, as it makes working
-    // out the paths to use a bit better
+    // Fix the base URL provided to be in the root of the whole project
+    // so above the public and test directories, as it makes working
+    // out the paths to use a bit easier as they are all "down" only
     baseUrl: '../../..',
     // All relative from the project root directory
     paths: {
@@ -38,8 +38,8 @@ require(['jquery', 'jasmine-html'], function($, jasmine){
     jasmineEnv.specFilter = function(spec) {
         return htmlReporter.specFilter(spec);
     };
-    //  This is a bit rubbish this, I'd rather not need to list each test spec
-    // in turn manually
+    //  TODO: This is a bit rubbish this, I'd rather not need to list each test spec in turn manually
+    //  but we are running in a browser here testing client or public parts of the application
     var specs = [];
     specs.push('spec/BookSpec');
     $(function(){
